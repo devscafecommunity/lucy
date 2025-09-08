@@ -1,0 +1,35 @@
+{
+  "name": "lucy-bot",
+  "version": "1.0.0",
+  "description": "Bot modular da comunidade Dev's Cafe",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/ --ext .js",
+    "lint:fix": "eslint src/ --ext .js --fix"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.2",
+    "better-sqlite3": "^12.2.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.8",
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "modular",
+    "javascript"
+  ],
+  "author": "Dev's Cafe Community",
+  "license": "MIT"
+}
